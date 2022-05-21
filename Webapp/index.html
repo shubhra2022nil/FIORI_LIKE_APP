@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+data-sap-ui-libs = "sap.m"
+data-sap-ui-theme = "sap_fiori_3_dark"
+data-sap-ui-resourceroots = '{
+
+"sap.hr.mss": "./"
+
+}'
+>
+
+
+</script>
+<title>"This is an MSS app !"</title>
+<script>
+
+var oCompContainer = new sap.ui.core.ComponentContainer({
+
+    name : "sap.hr.mss" 
+});
+
+oCompContainer.placeAt("content")
+
+</script>
+
+
+
+
+</head>
+
+
+<body class="sapUiBody">
+    <div id="content"></div>
+</body>
+
+</html>

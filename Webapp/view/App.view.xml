@@ -1,0 +1,9 @@
+<mvc:View xmlns = "sap.m"  xmlns:mvc = "sap.ui.core.mvc"  
+ controllerName = "sap.hr.mss.controller.App"
+
+>
+<!--This will be our container control which will be parent for other views-->
+
+<App id= "appCon" />
+
+</mvc:View>
